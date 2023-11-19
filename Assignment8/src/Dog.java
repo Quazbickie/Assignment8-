@@ -1,4 +1,6 @@
-public class Dog extends Animal{
+import java.io.Serializable;
+
+public class Dog extends Animal implements Serializable {
 
     private String name;
     private String breed;
